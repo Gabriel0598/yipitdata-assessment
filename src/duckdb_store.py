@@ -148,3 +148,38 @@ def hybrid_search(
     results.sort(key=lambda x: x["similarity"], reverse=True)
     con.close()
     return results[:top_k]
+
+
+def main() -> None:
+    """Demonstrative runner: list tables and show an example query.
+
+    Requires the DuckDB file to already exist (run ``run_pipeline.py`` first).
+    """
+    print("DuckDB path:", config.DUCKDB_PATH)
+    if not config.DUCKDB_PATH.exists():
+        print("Database not found. Run `python run_pipeline.py` first.")
+        return
+
+    con = duckdb.connect(str(config.DUCKDB_PATH), read_only=True)
+    tables = [t[0] for t in con.execute("show tables").fetchall()]
+    print("Tables:", tables)
+
+    print("\nLatest ARR per company (top 5):")
+    rows = con.execute("""
+        WITH ranked AS (
+          SELECT company_id, observation_date, arr_usd,
+                 ROW_NUMBER() OVER (PARTITION BY company_id
+                                    ORDER BY observation_date DESC) rn
+          FROM fact_arr_observation
+        )
+        SELECT company_id, observation_date, arr_usd
+        FROM ranked WHERE rn = 1
+        ORDER BY arr_usd DESC LIMIT 5
+    """).fetchall()
+    for r in rows:
+        print("  ", r)
+    con.close()
+
+
+if __name__ == "__main__":
+    main()
