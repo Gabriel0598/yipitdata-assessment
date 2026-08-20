@@ -1,0 +1,22 @@
+company_id,company_name,industry,founded_year,headquarters,employee_count,is_public,stock_ticker
+COMP-A19EE5A9FDC19109,OpenAI,Data Analytics,2006,"Austin, TX",12793,False,OPEN
+COMP-B780A23B530EF6BB,Anthropic,FinTech,2006,"San Francisco, CA",43747,False,
+COMP-D7B6461815275268,Google DeepMind,Data Analytics,2017,"Austin, TX",24274,False,
+COMP-A5A4E8E5266709E9,Meta AI,Data Analytics,2001,"Seattle, WA",20240,True,
+COMP-11F3242118FF2ADD,Microsoft,Data Analytics,2018,"Austin, TX",48646,False,
+COMP-D3E00D24B34937E8,Amazon Web Services,SaaS,2015,"Berlin, Germany",27826,False,
+COMP-EFD12553D6A4F7E5,Tesla,Cloud Computing,2008,"London, UK",5691,True,
+COMP-088472395B269710,NVIDIA,AI/ML,2017,"London, UK",22031,False,
+COMP-2D3DAD417C3B2CB2,Databricks,Data Analytics,2003,"Berlin, Germany",17962,True,DATA
+COMP-FDA76B0BCC1E87CF,Snowflake,Cloud Computing,2012,"London, UK",49545,True,
+COMP-4D08EC58743327BA,Stripe,Data Analytics,2002,"Seattle, WA",36348,True,STRI
+COMP-6D785501E2B59644,Airbnb,Data Analytics,1999,"London, UK",19967,False,
+COMP-F1905B7E8DD98927,Uber,FinTech,2015,"San Francisco, CA",10144,False,UBER
+COMP-F4E821747C88DE40,SpaceX,AI/ML,2016,"Berlin, Germany",31018,False,
+COMP-54AADC94970AD31E,Palantir,Cloud Computing,2005,"Berlin, Germany",42306,True,
+COMP-A5B966CDCB605CA4,Cloudflare,Cybersecurity,1998,"Austin, TX",4422,False,CLOU
+COMP-F0C6ACFF24BC7941,MongoDB,SaaS,2008,"Austin, TX",16952,False,MONG
+COMP-296ABB15D702EA5D,Elastic,Cybersecurity,2016,"San Francisco, CA",24508,True,ELAS
+COMP-65AAA4A1B46C7F71,Confluent,Cloud Computing,1995,"London, UK",3884,False,
+COMP-7AD8A9012E991995,DataRobot,Cloud Computing,2012,"New York, NY",23471,True,
+COMP-3DA36D688D43678F,Scale AI,AI/ML,2003,"Berlin, Germany",23379,False,
