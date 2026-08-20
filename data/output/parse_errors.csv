@@ -1,0 +1,193 @@
+article_id,source_article_id,company_name,field,raw_value,issue
+ART-77B8C33CF8A99CF7,ART0001,Scale AI,revenue,,invalid_missing
+ART-047C7594BA536E68,ART0003,Meta AI,revenue,,invalid_missing
+ART-8F6C489AB453D3B1,ART0005,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-6A416BB305E3BCB1,ART0008,Microsoft,revenue,,invalid_missing
+ART-71EFBC734138531A,ART0012,Cloudflare,revenue,,invalid_missing
+ART-2BA067402B955156,ART0018,Tesla,revenue,,invalid_missing
+ART-908B48A1A6E80E3D,ART0025,OpenAI,revenue,Not disclosed,invalid_missing
+ART-424E44825D1CDC82,ART0026,Anthropic,revenue,Not disclosed,invalid_missing
+ART-20FBDAEFAD8BB2D9,ART0027,Airbnb,revenue,,invalid_missing
+ART-3F43356397AA1EF0,ART0030,Stripe,revenue,Not disclosed,invalid_missing
+ART-76C4808521856823,ART0032,DataRobot,revenue,Not disclosed,invalid_missing
+ART-5E3383516293B278,ART0035,Microsoft,revenue,,invalid_missing
+ART-C47DAD02CC778737,ART0037,Palantir,revenue,Not disclosed,invalid_missing
+ART-CC94D307E1A65771,ART0042,DataRobot,revenue,,invalid_missing
+ART-65F32531D86111D4,ART0043,Uber,revenue,Not disclosed,invalid_missing
+ART-EDC6E3F3AB62E686,ART0044,Anthropic,revenue,Not disclosed,invalid_missing
+ART-E4149CEDB7EE7BDB,ART0047,Anthropic,revenue,Not disclosed,invalid_missing
+ART-AEA2C9D944FE033A,ART0048,Scale AI,revenue,,invalid_missing
+ART-6D3F29AEE23CA8E1,ART0050,Databricks,revenue,Not disclosed,invalid_missing
+ART-3F0D65C705A4A834,ART0052,MongoDB,revenue,Not disclosed,invalid_missing
+ART-560849BDE0E45C00,ART0057,NVIDIA,revenue,Not disclosed,invalid_missing
+ART-4C2B971531A543C6,ART0062,Databricks,revenue,,invalid_missing
+ART-FD0194406604F4EB,ART0063,Scale AI,revenue,,invalid_missing
+ART-98B47CA89DCD8BC4,ART0064,Anthropic,revenue,,invalid_missing
+ART-8DC4445AF9A0FC25,ART0065,Scale AI,revenue,,invalid_missing
+ART-762785527BD6AE44,ART0067,Cloudflare,revenue,,invalid_missing
+ART-FFFE59351AB10779,ART0076,Palantir,revenue,Not disclosed,invalid_missing
+ART-A64AA3FBE5041818,ART0083,Stripe,revenue,,invalid_missing
+ART-07086F7019FA043F,ART0084,Cloudflare,revenue,,invalid_missing
+ART-AB0E7A30900B299B,ART0089,Databricks,revenue,,invalid_missing
+ART-8413A07589385C30,ART0092,Scale AI,revenue,Not disclosed,invalid_missing
+ART-9C2051D0C52223CF,ART0095,Snowflake,revenue,Not disclosed,invalid_missing
+ART-54E699E4718E41FD,ART0098,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-604B8836093835B0,ART0103,DataRobot,revenue,,invalid_missing
+ART-65412F7805C63AB0,ART0105,Amazon Web Services,revenue,,invalid_missing
+ART-C4C9426EEBB7CC6C,ART0106,Scale AI,revenue,Not disclosed,invalid_missing
+ART-5C4B71AE1E0187FE,ART0107,Palantir,revenue,,invalid_missing
+ART-1B0B6694D6C10C03,ART0110,DataRobot,revenue,Not disclosed,invalid_missing
+ART-ECCF0D3DE3D04990,ART0111,Microsoft,revenue,Not disclosed,invalid_missing
+ART-F3BC2E349C193B02,ART0123,Confluent,revenue,,invalid_missing
+ART-73D129E273B9B503,ART0125,Scale AI,revenue,Not disclosed,invalid_missing
+ART-C3B7882A84F01A04,ART0127,Snowflake,revenue,,invalid_missing
+ART-37A96EAB3C311B14,ART0134,Microsoft,revenue,,invalid_missing
+ART-3B8C162798100AA2,ART0135,Scale AI,revenue,,invalid_missing
+ART-0C014C106B043E16,ART0136,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-872E3BC66526EB16,ART0139,Snowflake,revenue,,invalid_missing
+ART-6A455A55F2E2390D,ART0140,Airbnb,revenue,,invalid_missing
+ART-8E07F923E980AD7C,ART0143,Snowflake,revenue,Not disclosed,invalid_missing
+ART-03BCD55866B744E7,ART0145,Uber,revenue,Not disclosed,invalid_missing
+ART-69B8C1C85A52B660,ART0146,Palantir,revenue,Not disclosed,invalid_missing
+ART-C1DE272A829F9E27,ART0148,DataRobot,revenue,,invalid_missing
+ART-C73116A37ACF2E44,ART0150,MongoDB,revenue,Not disclosed,invalid_missing
+ART-BFB46E9855D38405,ART0151,Elastic,revenue,Not disclosed,invalid_missing
+ART-D451C237C199E230,ART0152,Stripe,revenue,Not disclosed,invalid_missing
+ART-ACBF295BCD2B4F7F,ART0153,Google DeepMind,revenue,Not disclosed,invalid_missing
+ART-CA57A4449AA13D6B,ART0154,NVIDIA,revenue,Not disclosed,invalid_missing
+ART-1B3CF80EE88C734B,ART0156,Scale AI,revenue,,invalid_missing
+ART-AB4E54123A3B10F3,ART0160,Databricks,revenue,Not disclosed,invalid_missing
+ART-2905D95C55822138,ART0162,Airbnb,revenue,Not disclosed,invalid_missing
+ART-A241861E0388FA7A,ART0164,Anthropic,revenue,Not disclosed,invalid_missing
+ART-955DFE00E2EA7F4D,ART0166,Microsoft,revenue,,invalid_missing
+ART-1A4ADBFCF3B9C915,ART0167,Scale AI,revenue,Not disclosed,invalid_missing
+ART-F5236720C65C7E39,ART0171,Snowflake,revenue,,invalid_missing
+ART-F4FECD2E140780B8,ART0174,Palantir,revenue,Not disclosed,invalid_missing
+ART-D2620A7E19FD9232,ART0176,Scale AI,revenue,Not disclosed,invalid_missing
+ART-A5E53D720BEF42D7,ART0178,Cloudflare,revenue,,invalid_missing
+ART-C7E3DC0BE4E7CF28,ART0182,Amazon Web Services,revenue,,invalid_missing
+ART-DE54B468AF9DD83E,ART0183,NVIDIA,revenue,,invalid_missing
+ART-06870D5820BA3D97,ART0190,Snowflake,revenue,,invalid_missing
+ART-B15A5A33BAB05181,ART0191,Elastic,revenue,,invalid_missing
+ART-2B097FD04FB7CFB9,ART0193,SpaceX,revenue,,invalid_missing
+ART-E954EDCDDFE06727,ART0194,Uber,revenue,Not disclosed,invalid_missing
+ART-76EF94CAC9D85A62,ART0195,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-A397E8B406194B59,ART0196,Tesla,revenue,Not disclosed,invalid_missing
+ART-9FEE81DC1EA32ACB,ART0197,Cloudflare,revenue,,invalid_missing
+ART-8140A6B903BC6C85,ART0201,Google DeepMind,revenue,Not disclosed,invalid_missing
+ART-70FF70576148D7D5,ART0203,Elastic,revenue,,invalid_missing
+ART-E114759191EDCDE0,ART0205,Meta AI,revenue,,invalid_missing
+ART-600C125BFBE858CE,ART0208,Airbnb,revenue,,invalid_missing
+ART-A69071600C506074,ART0214,NVIDIA,revenue,,invalid_missing
+ART-FFADD57850D7EED8,ART0215,Uber,revenue,Not disclosed,invalid_missing
+ART-DA93D8F4BE6AA42C,ART0216,Tesla,revenue,Not disclosed,invalid_missing
+ART-19BE492960EE4DFB,ART0218,Google DeepMind,revenue,Not disclosed,invalid_missing
+ART-0F0BA0574E13EAF7,ART0227,Snowflake,revenue,,invalid_missing
+ART-5B2441A013625CCA,ART0229,Cloudflare,revenue,Not disclosed,invalid_missing
+ART-5A7CFDAE7CA72E3F,ART0235,Stripe,revenue,,invalid_missing
+ART-EC2BF099BBCDAD58,ART0238,Microsoft,revenue,,invalid_missing
+ART-A5F351E8A2762C7E,ART0244,Anthropic,revenue,,invalid_missing
+ART-9CC7A60F0A5B5CBC,ART0245,Tesla,revenue,Not disclosed,invalid_missing
+ART-B05A56DC26F34C38,ART0248,Confluent,revenue,Not disclosed,invalid_missing
+ART-1965FEE712F19143,ART0255,Palantir,revenue,,invalid_missing
+ART-2D2DE15A13BFCC76,ART0256,Anthropic,revenue,,invalid_missing
+ART-DC180A3F3E4BC864,ART0260,Cloudflare,revenue,,invalid_missing
+ART-EB978A751F10D8E6,ART0265,MongoDB,revenue,,invalid_missing
+ART-119A12F56539941B,ART0266,Meta AI,revenue,,invalid_missing
+ART-0DEB58ABB2099274,ART0267,DataRobot,revenue,Not disclosed,invalid_missing
+ART-63F5808BE54099DB,ART0271,Airbnb,revenue,,invalid_missing
+ART-D41547C81C4B75A7,ART0276,Databricks,revenue,Not disclosed,invalid_missing
+ART-B614A642AE118EF2,ART0279,Airbnb,revenue,,invalid_missing
+ART-487B3F6870BA2664,ART0280,MongoDB,revenue,,invalid_missing
+ART-D04FE61395E483EA,ART0281,Cloudflare,revenue,Not disclosed,invalid_missing
+ART-BE067D204750082E,ART0282,Google DeepMind,revenue,,invalid_missing
+ART-C1EE865265C8C45C,ART0283,OpenAI,revenue,Not disclosed,invalid_missing
+ART-B7610224C1C3A50A,ART0284,Confluent,revenue,,invalid_missing
+ART-9788FECC7476E166,ART0287,Meta AI,revenue,,invalid_missing
+ART-D9F3D124BF42134E,ART0288,Microsoft,revenue,,invalid_missing
+ART-F18BB40A857370CE,ART0289,Tesla,revenue,Not disclosed,invalid_missing
+ART-C21B8A29C3A491DD,ART0291,Databricks,revenue,,invalid_missing
+ART-9F266951C72F9D5A,ART0296,Scale AI,revenue,,invalid_missing
+ART-816BEF2EFD41CB1E,ART0297,NVIDIA,revenue,Not disclosed,invalid_missing
+ART-2D9D4D8F62CA7BB3,ART0298,Palantir,revenue,,invalid_missing
+ART-EB584662D47BF74F,ART0302,Stripe,revenue,,invalid_missing
+ART-6C3D3094FE83840C,ART0309,Elastic,revenue,,invalid_missing
+ART-E4419BC1CCAA8262,ART0319,DataRobot,revenue,,invalid_missing
+ART-ED2A77BB9132B460,ART0323,Stripe,revenue,Not disclosed,invalid_missing
+ART-24F50595581B01A4,ART0325,Databricks,revenue,Not disclosed,invalid_missing
+ART-DEB7F93F4B4C1CDE,ART0339,OpenAI,revenue,,invalid_missing
+ART-F3EBE80E1FC1A4FA,ART0342,Databricks,revenue,,invalid_missing
+ART-379A1712E952AF2C,ART0344,Elastic,revenue,,invalid_missing
+ART-51E58E109510DBFB,ART0348,Confluent,revenue,Not disclosed,invalid_missing
+ART-EB35DBFFB3E89535,ART0349,Snowflake,revenue,Not disclosed,invalid_missing
+ART-B5D316EC3D3BECC6,ART0353,Anthropic,revenue,,invalid_missing
+ART-2808DB47B760D1E3,ART0354,Microsoft,revenue,,invalid_missing
+ART-790EC1CFBFE6E479,ART0356,Databricks,revenue,Not disclosed,invalid_missing
+ART-D40214FCAADE3C25,ART0361,Uber,revenue,,invalid_missing
+ART-57DC01BE5F8A0574,ART0362,Stripe,revenue,Not disclosed,invalid_missing
+ART-F45467F59B8B5D42,ART0366,Cloudflare,revenue,Not disclosed,invalid_missing
+ART-363A845B029BA2C9,ART0372,NVIDIA,revenue,Not disclosed,invalid_missing
+ART-A0D6E748F8C0E6EF,ART0379,Tesla,revenue,,invalid_missing
+ART-51A75FB55B4B7972,ART0381,Elastic,revenue,Not disclosed,invalid_missing
+ART-26566593107260E5,ART0388,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-15328E7EEAA0682B,ART0395,Google DeepMind,revenue,,invalid_missing
+ART-BB8DA73B2DCEB08A,ART0401,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-856837DB227C3B7C,ART0405,Uber,revenue,Not disclosed,invalid_missing
+ART-7F5653CF9BAC0492,ART0407,Elastic,revenue,Not disclosed,invalid_missing
+ART-85C15879627280F6,ART0409,Google DeepMind,revenue,,invalid_missing
+ART-AD39FB82066F4C50,ART0414,Microsoft,revenue,,invalid_missing
+ART-0E3AB9074B0D46B9,ART0415,Meta AI,revenue,,invalid_missing
+ART-13F91A7C5273C1EB,ART0417,Meta AI,revenue,,invalid_missing
+ART-A588CB7EDBDF4C71,ART0419,Anthropic,revenue,,invalid_missing
+ART-2A7A11F2FD423B68,ART0422,SpaceX,revenue,,invalid_missing
+ART-C9CDB74625680147,ART0423,Tesla,revenue,,invalid_missing
+ART-3DD444F8167A9517,ART0425,Stripe,revenue,Not disclosed,invalid_missing
+ART-B77B1CCB7BAA4FD9,ART0426,Anthropic,revenue,,invalid_missing
+ART-8356CCD52E0F821F,ART0434,Snowflake,revenue,,invalid_missing
+ART-29597B9392CD37B5,ART0436,Palantir,revenue,,invalid_missing
+ART-3020737159D6C763,ART0438,Snowflake,revenue,Not disclosed,invalid_missing
+ART-103F54CD3044B00A,ART0440,Elastic,revenue,Not disclosed,invalid_missing
+ART-E2BBA36109A3ABFC,ART0444,Anthropic,revenue,Not disclosed,invalid_missing
+ART-91BC2AF5D3A83253,ART0447,Google DeepMind,revenue,,invalid_missing
+ART-2B2632B1390B2382,ART0448,Amazon Web Services,revenue,Not disclosed,invalid_missing
+ART-393D9F50BCD4034C,ART0449,Meta AI,revenue,,invalid_missing
+ART-2B166F8768EC290B,ART0450,Cloudflare,revenue,,invalid_missing
+ART-CF65550884C8EFA1,ART0451,SpaceX,revenue,Not disclosed,invalid_missing
+ART-33D570808DB74B72,ART0454,Anthropic,revenue,Not disclosed,invalid_missing
+ART-47695C8D5B2345E8,ART0455,Tesla,revenue,,invalid_missing
+ART-F96AD6FE54643133,ART0462,Uber,revenue,Not disclosed,invalid_missing
+ART-33A5038ADF9B62F6,ART0465,Cloudflare,revenue,,invalid_missing
+ART-1892B61D0D9F6C94,ART0467,Elastic,revenue,,invalid_missing
+ART-D4E5EAE940DBE381,ART0469,Anthropic,revenue,Not disclosed,invalid_missing
+ART-905E9B652017B922,ART0474,Cloudflare,revenue,,invalid_missing
+ART-46CF3D67B677C602,ART0478,Databricks,revenue,Not disclosed,invalid_missing
+ART-DC7AF96386704942,ART0484,Microsoft,revenue,,invalid_missing
+ART-FAA6717EFE468BBF,ART0486,Snowflake,revenue,,invalid_missing
+ART-42422A0CC8562226,ART0489,Airbnb,revenue,Not disclosed,invalid_missing
+ART-EB79E91EF17CC4BC,ART0494,MongoDB,revenue,,invalid_missing
+ART-9F899682AA04221E,ART0499,Palantir,revenue,Not disclosed,invalid_missing
+ART-F7F7E6119AF584ED,ART0507,Anthropic,revenue,,invalid_missing
+ART-2332387968138242,ART0509,Palantir,revenue,Not disclosed,invalid_missing
+ART-F375BA0B1E66188E,ART0527,Stripe,revenue,,invalid_missing
+ART-27F747293030D80B,ART0529,Microsoft,revenue,,invalid_missing
+ART-D83D56D9D5A94153,ART0535,Snowflake,revenue,,invalid_missing
+ART-04B4F6F5BA91F861,ART0538,Google DeepMind,revenue,,invalid_missing
+ART-188ED43A336881D4,ART0543,Meta AI,revenue,Not disclosed,invalid_missing
+ART-E8E2AA2C2380C959,ART0557,OpenAI,revenue,Not disclosed,invalid_missing
+ART-0FEFD8594FE7B69F,ART0579,Cohere,revenue,Not disclosed,invalid_missing
+ART-78D214AAC46DE7F7,ART0583,NVIDIA,revenue,Not disclosed,invalid_missing
+ART-9E5BEB33CBCD6F59,ART0596,Amazon Web Services,revenue,,invalid_missing
+ART-52C79E9CB650C265,ART0601,Amazon Web Services,revenue,,invalid_missing
+ART-1D1379B05622ECA6,ART0613,NVIDIA,revenue,,invalid_missing
+ART-A9118B4B70484451,ART0630,xAI,revenue,,invalid_missing
+ART-8405F4FF51192EB7,ART0640,Tesla,revenue,Not disclosed,invalid_missing
+ART-23E1C1721F1C572D,ART0646,Hugging Face,revenue,,invalid_missing
+ART-E3430EAB08C976E3,ART0687,MongoDB,revenue,Not disclosed,invalid_missing
+ART-6BF44672DAB0135E,ART0699,DataRobot,revenue,,invalid_missing
+ART-5790FAE12AF0BF0A,ART0706,Databricks,revenue,,invalid_missing
+ART-83D920B22FECC3D4,ART0715,Cohere,revenue,,invalid_missing
+ART-AF8E5DB50668E87F,ART0721,Meta AI,revenue,,invalid_missing
+ART-8AB5A255E8C05F1D,ART0723,Amazon Web Services,revenue,,invalid_missing
+ART-72CA6CBE80E46049,ART0725,Airbnb,revenue,Not disclosed,invalid_missing
+ART-8758797B1834EC09,ART0739,xAI,revenue,,invalid_missing
+ART-2885130C27542234,ART0742,Cloudflare,revenue,Not disclosed,invalid_missing
