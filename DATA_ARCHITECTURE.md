@@ -53,9 +53,31 @@ fact_arr_observation (one row per VALID ARR observation)
   The pipeline performs a full rebuild from raw on each run, so re-runs cannot create
   duplicate modeled records.
 
-### Deriving common views
+### Calculating ARR over time
 
-- **Latest ARR per company**
+ARR is reported **discretely** — each row in `fact_arr_observation` is a point-in-time
+reported figure as of its `observation_date`. It is **not** accumulated or summed; to get
+"ARR over time" for a company you select the reported figure as-of each relevant point in
+time. The two common shapes are:
+
+- **Point-in-time (latest) ARR** — the most recent reported figure, i.e. the latest
+  observation per company. This is what a snapshot of "current" ARR means.
+- **Series over time** — every reported observation for a company, ordered by
+  `observation_date`, optionally reduced to a single figure per period (e.g. the last
+  reported figure within each quarter) so you can chart ARR growth quarter over quarter.
+
+Because each article is a discrete report, there is no implicit carry-forward between
+observations: the series only contains the dates on which ARR was actually reported.
+
+- **Full series over time for one company**
+  ```sql
+  SELECT observation_date, arr_usd
+  FROM fact_arr_observation
+  WHERE company_id = (SELECT company_id FROM dim_company WHERE company_name = 'Snowflake')
+  ORDER BY observation_date;
+  ```
+
+- **Latest ARR per company** (point-in-time snapshot)
   ```sql
   WITH ranked AS (
     SELECT company_id, observation_date, arr_usd,
@@ -63,8 +85,28 @@ fact_arr_observation (one row per VALID ARR observation)
     FROM fact_arr_observation)
   SELECT * FROM ranked WHERE rn = 1
   ```
-- **Quarterly ARR per company**: partition by `(company_id, published_year, published_quarter)`
-  and take the observation closest to quarter end (last in the quarter).
+
+- **Quarterly ARR per company** (last reported figure within each quarter, joined to the
+  article's year/quarter for the period labels)
+  ```sql
+  WITH ranked AS (
+    SELECT c.company_id, a.published_year, a.published_quarter,
+           f.observation_date, f.arr_usd,
+           ROW_NUMBER() OVER (PARTITION BY c.company_id, a.published_year,
+                                            a.published_quarter
+                              ORDER BY f.observation_date DESC) rn
+    FROM fact_arr_observation f
+    JOIN dim_company c USING (company_id)
+    JOIN dim_article  a USING (article_id))
+  SELECT company_id, published_year, published_quarter, observation_date, arr_usd
+  FROM ranked
+  WHERE rn = 1
+  ORDER BY company_id, published_year, published_quarter;
+  ```
+
+> To derive "ARR growth", compare the latest figure in a later period against the latest
+> figure in the preceding period. Always label each figure with its `observation_date` (the
+> reporting date) so comparisons are anchored to when the ARR was actually reported.
 
 ### Lineage
 
