@@ -78,6 +78,23 @@ WITH ranked AS (
 ) SELECT company_id, observation_date, arr_usd FROM ranked WHERE rn = 1
 ORDER BY arr_usd DESC;
 
+# ARR for one company over time (full reported series)
+SELECT observation_date, arr_usd
+FROM fact_arr_observation
+WHERE company_id = (SELECT company_id FROM dim_company WHERE company_name = 'Snowflake')
+ORDER BY observation_date;
+
+# ARR for one company over time (Python)
+import duckdb
+con = duckdb.connect("data/output/yipitdata.duckdb", read_only=True)
+con.execute("""
+  SELECT f.observation_date, f.arr_usd
+  FROM fact_arr_observation f
+  JOIN dim_company c USING (company_id)
+  WHERE c.company_name = 'Snowflake'
+  ORDER BY f.observation_date
+""").df()
+
 # Semantic search over all articles
 from src.embeddings import find_similar_articles
 find_similar_articles("a company raising a large funding round", top_k=5)
